@@ -28,7 +28,7 @@ pipeline {
         stage('Docker Build Images') {
             steps {
                 script {
-                    sh 'docker build -t dockerhub1010/helm-rockets:v1 .'
+                    sh 'docker build -t sbkarthi05/helm-rockets:v1 .'
                     sh 'docker images'
                 }
             }
